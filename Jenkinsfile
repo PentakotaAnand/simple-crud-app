@@ -5,7 +5,7 @@ pipeline {
             steps {
                 withSonarQubeEnv('SonarQube') {
                     withMaven(maven:'Maven') {
-                        sh 'mvn clean package sonar:sonar'
+                        sh 'mvn sonar:sonar'
                     }
                 }
                 timeout(time: 2, unit: 'MINUTES'){
