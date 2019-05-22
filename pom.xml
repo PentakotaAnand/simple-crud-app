@@ -54,6 +54,6 @@
     
   </dependencies>
   <build>
-    <finalName>SpringMVCPagination</finalName>
+    <finalName>Sample-App</finalName>
   </build>
 </project>
